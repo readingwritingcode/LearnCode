@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>
+      The html input is used to get any kind of input according to the type
+    </h3>
+    <p>BUTTON</p>
+    <input type="button" value="clickme" />
+    <p>CHECKBOK</p>
+    <input type="checkbox" name="checbok" id="a" value="helloworld" />
+    <p>DATE</p>
+    <input type="date" name="date" id="b" />
+    <p>FILE</p>
+    <input type="file" name="loaded" id="c" />
+    <p>RANGE</p>
+    <p id="rangeValue">0</p>
+    <input type="range" name="range" id="d" min="0" max="1" step="0.1" />
+    <p>SELECT</p>
+    <select name="pl" id="pll">
+      <option value="python">python</option>
+      <option value="javascript">javascript</option>
+      <option value="bash">bash</option>
+    </select>
+    <p id="selectedValue"></p>
+    <script>
+      document.addEventListener("change", showRange);
+      function showRange() {
+        range = document.querySelector("#rangeValue");
+        range.textContent = document.querySelector("#d").value;
+      }
+
+      document.addEventListener("change", showSelect);
+      function showSelect() {
+        _span = document.querySelector("#selectedValue");
+        _span.textContent =
+          "select value is" + " " + document.querySelector("#pll").value;
+      }
+    </script>
+  </body>
+</html>

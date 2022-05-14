@@ -1,0 +1,32 @@
+# HTML INPUTS
+
+Categories of inputs
+	general inputs
+		commonly used in forms to collect user information
+		<input type="text">
+		<input type="email">
+		<input type="button">
+		<input type="submit">
+		<input type="number">
+		<input type="password">
+		<input type="reset">
+		<input type="tel">
+	duration inputs
+		<input type="date">
+		<input type="month">
+		<input type="week">
+		<input type="time">
+		<input type="datetime-local">
+	media inputs
+		<input type="file">
+		<input type="image"
+	option inputs
+		<input type="radio">
+		<input type="checkbox">
+		<input type=range">
+	advanced inputs
+		<input type="hidden">
+		<input type="color">
+		<input type="url">
+		<input type="search">
+

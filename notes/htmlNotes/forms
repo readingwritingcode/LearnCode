@@ -1,0 +1,36 @@
+# HTML FORMS
+
+Used to collect user input like text, images, links etc. 
+
+<form> element is used to create a form in HTML. A form contain <input>,
+	<textarea>,<checkbox>,<buttons> etc...
+
+	'''
+		<form>
+
+		//form inputs and contents
+		
+		</form>
+	'''
+<form> elements. there are several form elements. some of the most common are
+	<input>		// is used to get any kind of input according to the type
+	<label>		// defines a label for several form elements
+	<select>	// define a dropdown list
+	<textarea>	// define a multi-line input field
+	<button>	// define a clickable button
+	<fieldset>	// used to group related data in a form
+	<legend>	// defines a caption for the <fielset> element
+	<datalist>	// specifies a list of pre-defined options for an <input>
+	<output>	// <output> element represents the result of a calculation
+	<options>	// defines an option that can be selected.
+	<optgroup>
+
+Use CSS to style your form to make it look more interesting.
+Use the require keyword to make some inputs have a value for sure
+
+# Form atrributes
+are those thing / data we pass, in this case to the form
+
+	action attribute defines the action to be performed when the form is submited
+	target attributes defines where to display the response
+	method attributes specifies the HTTP method to be used
